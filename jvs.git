@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("===== Java Program =====");
+
+        // Input name
+        System.out.print("បញ្ចូលឈ្មោះ: ");
+        String name = input.nextLine();
+
+        // Input age
+        System.out.print("បញ្ចូលអាយុ: ");
+        int age = input.nextInt();
+
+        // Show info
+        System.out.println("\nសួស្តី " + name + "!");
+        System.out.println("អ្នកមានអាយុ " + age + " ឆ្នាំ");
+
+        // Calculate future age
+        int futureAge = age + 5;
+        System.out.println("៥ ឆ្នាំក្រោយ អ្នកនឹងមានអាយុ " + futureAge);
+
+        // Check condition
+        if(age >= 18) {
+            System.out.println("អ្នកជាមនុស្សពេញវ័យ");
+        } else {
+            System.out.println("អ្នកមិនទាន់ពេញវ័យទេ");
+        }
+
+        input.close();
+    }
+}
