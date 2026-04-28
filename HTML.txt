@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <title>គេហទំព័ររបស់ខ្ញុំ</title>
+</head>
+<body>
+
+    <h1>ស្វាគមន៍មកកាន់វេបសាយរបស់ខ្ញុំ</h1>
+    <p>នេះគឺជាគំរូ HTML ងាយៗមួយ។</p>
+
+    <h2>អំពីខ្ញុំ</h2>
+    <p>ខ្ញុំជានិស្សិតរៀន IT។</p>
+
+    <h2>ទំនាក់ទំនង</h2>
+    <p>Email: example@gmail.com</p>
+
+</body>
+</html>
